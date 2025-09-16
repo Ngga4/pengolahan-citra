@@ -5,7 +5,7 @@ import os
 
 def grayscaleHistogram():
     root = os.getcwd()
-    img = cv.imread("1.jpg", cv.IMREAD_GRAYSCALE)
+    img = cv.imread("4.jpg", cv.IMREAD_GRAYSCALE)
 
     plt.figure(figsize=(14,6))
     plt.subplot(1, 2, 1)

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # === 1. Input gambar dari user ===
-img = cv2.imread("3.png")
+img = cv2.imread("4.jpg")
 
 if img is None:
     print("Gambar tidak ditemukan, cek path!")
