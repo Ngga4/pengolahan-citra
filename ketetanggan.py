@@ -27,6 +27,7 @@ def get_neighbors(matrix, x, y, mode="4"):
     return neighbors
 
 # Contoh: ambil tetangga dari posisi (2,2) (tengah matriks)
+x,y = 2,2
 print(f"\nPosisi pusat  = {matriks[x,y]}")
 
 print("4-Ketetanggaan:", get_neighbors(matriks, x, y, "4"))
